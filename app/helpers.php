@@ -12,5 +12,7 @@ function get_rows()
 
     fclose($file);
 
+    unset($rows[0]);
+
     return $rows;
 }
