@@ -7,15 +7,15 @@
 
         <title>做網站要多少錢 - 關於做網站的各種功能與價格說明清單</title>
 
-        <meta name="description" content="">
+        <meta name="description" content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name='og:title' content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
 
-        <meta name='og:description' content="">
+        <meta name='og:description' content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
 
-        <meta name='og:image' content="">
+        <meta name='og:image' content="{{ url('/images/og-image.png') }}">
 
         <link rel="stylesheet" href="/css/bootstrap.min.css">
 
