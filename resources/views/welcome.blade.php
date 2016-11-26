@@ -20,7 +20,7 @@
     <div class='row hidden-xs'>
         <div class='col-md-6'>
             <ul class="list-group">
-              <li class="list-group-item">於 2016-11-26 17:24:28 更新：項目資料</li>
+              <li class="list-group-item">於 2016-11-26 22:41:28 更新：項目資料</li>
               <li class="list-group-item">於 2016-11-26 13:22:42 更新：建立初版資料</li>
             </ul>
         </div>
@@ -93,7 +93,7 @@
         padding-top: 10px;
     }
 
-    .item-box:nth-child(odd) {
+    .item-box:nth-child(even) {
         background-color: #E0F2F1;
     }
 
