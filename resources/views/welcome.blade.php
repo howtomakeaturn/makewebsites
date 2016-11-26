@@ -16,6 +16,21 @@
         </div>
     </div>
     <br>
+
+    <div class='row hidden-xs'>
+        <div class='col-md-6'>
+            <ul class="list-group">
+              <li class="list-group-item">於 2016-11-26 17:24:28 更新：項目資料</li>
+              <li class="list-group-item">於 2016-11-26 13:22:42 更新：建立初版資料</li>
+            </ul>
+        </div>
+        <div class='col-md-6'>
+            <div class="alert alert-warning" role="alert">
+                資料持續整理中：<br /><a href='https://goo.gl/pMHtI1' target="_blank">點擊這裡可以參與編輯</a>
+            </div>
+        </div>
+    </div>
+
     <div class='row item-box -header'>
         <div class='col-md-1'>
             功能名稱
@@ -89,7 +104,6 @@
 
     .item-box .title {
         font-weight: bold;
-        font-size: 16px;
     }
 
     .mobile-hr {
