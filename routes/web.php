@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $rows = get_rows();
+    return view('welcome', ['rows' => $rows]);
 });
