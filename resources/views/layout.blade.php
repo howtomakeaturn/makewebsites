@@ -25,6 +25,8 @@
 
         <script src='/js/bootstrap.min.js'></script>
 
+        <script src="//load.sumome.com/" data-sumo-site-id="ab18997ff865708337c2106c6f7c97aa9b661dfd3bfa7252be2780db8686ee6a" async="async"></script><script src="//load.sumome.com/" data-sumo-site-id="ab18997ff865708337c2106c6f7c97aa9b661dfd3bfa7252be2780db8686ee6a" async="async"></script>
+
     </head>
     <body>
         @yield('content')
