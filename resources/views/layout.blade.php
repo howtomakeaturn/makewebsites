@@ -55,6 +55,7 @@
             <div class='row hidden-xs'>
                 <div class='col-md-6'>
                     <ul class="list-group">
+                      <li class="list-group-item">於 2016-12-04 21:30:38 更新：項目資料</li>
                       <li class="list-group-item">於 2016-12-04 15:58:01 新增：給業主參考的術語辭典</li>
                       <li class="list-group-item">於 2016-11-26 22:41:28 更新：項目資料</li>
                     </ul>
