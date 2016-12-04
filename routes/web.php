@@ -15,3 +15,8 @@ Route::get('/', function () {
     $rows = get_rows();
     return view('welcome', ['rows' => $rows]);
 });
+
+Route::get('/dictionary', function () {
+    $rows = get_dict_rows();
+    return view('dictionary', ['rows' => $rows]);
+});

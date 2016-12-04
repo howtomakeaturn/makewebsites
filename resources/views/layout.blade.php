@@ -29,6 +29,45 @@
 
     </head>
     <body>
+
+        <div class="container">
+
+            <div class='row'>
+                <div class='col-md-12'>
+                    <h2 style='color: #009688;'>做網站要多少錢</h2>
+                    <p style='color: #757575;'>
+                        關於做網站的各種功能與價格說明清單
+                        <i class="fa fa-dollar" aria-hidden="true"></i>
+                        <i class="fa fa-dollar" aria-hidden="true"></i>
+                        <i class="fa fa-dollar" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <ul class="nav nav-pills">
+                  <li role="presentation"><a href="/">預算說明清單</a></li>
+                  <li role="presentation"><a href="/dictionary">給業主參考的術語辭典</a></li>
+                </ul>
+            </div>
+            <br>
+
+            <div class='row hidden-xs'>
+                <div class='col-md-6'>
+                    <ul class="list-group">
+                      <li class="list-group-item">於 2016-12-04 15:58:01 新增：給業主參考的術語辭典</li>
+                      <li class="list-group-item">於 2016-11-26 22:41:28 更新：項目資料</li>
+                    </ul>
+                </div>
+                <div class='col-md-6'>
+                    <div class="alert alert-warning" role="alert">
+                        資料持續整理中：<br /><a href='https://goo.gl/pMHtI1' target="_blank">點擊這裡可以參與編輯</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         @yield('content')
 
         <script>
