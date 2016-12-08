@@ -101,6 +101,21 @@
 
         @yield('content')
 
+
+        <div class="container">
+            <div class='row'>
+                <div class='col-md-12'>
+                    <hr>
+                    <center>
+                    <strong>
+                    Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
+                    </strong>
+                    </center>
+                    <br>
+                </div>
+            </div>
+        </div>
+
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
