@@ -47,9 +47,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                  <li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> 了解報價的差異</a></li>
+                  <li><a href="/specs"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> 了解報價的差異</a></li>
+                  <!--
                   <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> 尋找接案者</a></li>
-                  <li><a href="#"><i class="fa fa-handshake-o" aria-hidden="true"></i> 發佈案件</a></li>
+                  -->
+                  <li><a href="/jobs"><i class="fa fa-handshake-o" aria-hidden="true"></i> 發佈案件</a></li>
 
               <!--
               <ul class="nav navbar-nav navbar-right">
@@ -72,11 +74,17 @@
 
         @yield('content')
 
-        <br>
-        <br>
+        <div class="subscribe-section">
+            定期收到最新的功能參考報價，以及案件需求。
+            歡迎追蹤粉絲專頁，或是留下 Email 訂閱 <input type='text' placeholder="Email...">
+            <input type='submit' class="btn btn-success btn" value="訂閱">
+        </div>
+
         <div class="container">
             <div class='row'>
                 <div class='col-md-12'>
+                    <hr>
+                    <br>
                     <center>
                     <strong>
                     Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
@@ -86,6 +94,8 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
         <br>
 
         <script>
@@ -140,7 +150,16 @@
                 width: 100%;
                 height: 400px;
             }
-
+            .subscribe-section {
+                text-align: center;
+                background-color: #424242;
+                color: white;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                z-index: 1;
+                padding: 10px;
+            }
         </style>
     </body>
 </html>
