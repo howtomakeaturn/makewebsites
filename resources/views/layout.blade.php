@@ -72,11 +72,11 @@
 
         @yield('content')
 
-
+        <br>
+        <br>
         <div class="container">
             <div class='row'>
                 <div class='col-md-12'>
-                    <hr>
                     <center>
                     <strong>
                     Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
@@ -86,6 +86,7 @@
                 </div>
             </div>
         </div>
+        <br>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -97,5 +98,49 @@
           ga('send', 'pageview');
 
         </script>
+
+        <style>
+            .navbar {
+                margin-bottom: 0;
+            }
+            body {
+                font-size: 15px;
+                line-height: 1.7em;
+            }
+            .main-section {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            .main-section.-blue {
+                background-color: #E3F2FD;
+            }
+            .site-title {
+                font-size: 3em;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .site-slogan {
+                font-size: 1.8em;
+                text-align: center;
+            }
+            .menu-buttons {
+                text-align: center;
+                padding-top: 40px;
+            }
+            .menu-buttons .btn {
+                padding: 20px 40px;
+                font-size: 1.5em;
+            }
+            .section-title {
+                font-size: 2em;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .main-section iframe {
+                width: 100%;
+                height: 400px;
+            }
+
+        </style>
     </body>
 </html>

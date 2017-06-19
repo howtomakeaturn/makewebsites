@@ -25,3 +25,8 @@ Route::get('/mock/index', function () {
     $rows = get_rows();
     return view('index', ['rows' => $rows]);
 });
+
+Route::get('/specs', function () {
+    $rows = get_rows();
+    return view('specs', ['rows' => $rows]);
+});

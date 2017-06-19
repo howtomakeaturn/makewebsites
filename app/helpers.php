@@ -14,7 +14,7 @@ function get_rows()
 
     unset($rows[0]);
 
-    return $rows;
+    return collect($rows);
 }
 
 function get_dict_rows()

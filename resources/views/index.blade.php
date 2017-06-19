@@ -23,31 +23,48 @@
 
 </div>
 
-<style>
-    body {
-        font-size: 15px;
-        line-height: 1.7em;
-    }
-    .main-section {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .site-title {
-        font-size: 3em;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .site-slogan {
-        font-size: 1.8em;
-        text-align: center;
-    }
-    .menu-buttons {
-        text-align: center;
-        padding-top: 40px;
-    }
-    .menu-buttons .btn {
-        padding: 20px 40px;
-        font-size: 1.5em;
-    }
-</style>
+<div class="main-section -blue">
+    <div class="section-title">
+        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+        了解報價的差異
+    </div>
+
+    @include('_specs', ['rows' => $rows->shuffle()->take(4)])
+
+    <br>
+    <div style='text-align: center;'>
+        <a href='/specs' class="btn btn-primary">查看全部 {{$rows->count()}} 則條目</a>
+        <a href='/specs' class="btn btn-success">新增條目</a>
+    </div>
+
+</div>
+
+<div class="main-section">
+    <div class="section-title">
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+        尋找接案者
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe src="https://docs.google.com/spreadsheets/d/1XGbYp7YkMN_0PTz-h99mADWOp8xTsUq50-xOxVLJfJU/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-section -blue">
+    <div class="section-title">
+        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+        發佈案件
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe src="https://docs.google.com/spreadsheets/d/1XGbYp7YkMN_0PTz-h99mADWOp8xTsUq50-xOxVLJfJU/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
