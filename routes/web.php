@@ -20,3 +20,8 @@ Route::get('/dictionary', function () {
     $rows = get_dict_rows();
     return view('dictionary', ['rows' => $rows]);
 });
+
+Route::get('/mock/index', function () {
+    $rows = get_rows();
+    return view('index', ['rows' => $rows]);
+});

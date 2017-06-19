@@ -17,7 +17,10 @@
 
         <meta name='og:image' content="{{ url('/images/og-image.png') }}">
 
+        <!--
         <link rel="stylesheet" href="/css/bootstrap.min.css">
+        -->
+        <link rel="stylesheet" href="/css/bootstrap-yeti.min.css">
 
         <link rel="stylesheet" href="/css/font-awesome.min.css">
 
@@ -38,14 +41,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/">做網站要多少錢</a>
+              <a class="navbar-brand" href="/">做網站要多少錢？</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="/">預算說明清單</a></li>
-                <li><a href="/dictionary">給業主參考的術語辭典</a></li>
+                  <li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> 了解報價的差異</a></li>
+                  <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> 尋找接案者</a></li>
+                  <li><a href="#"><i class="fa fa-handshake-o" aria-hidden="true"></i> 發佈案件</a></li>
 
               <!--
               <ul class="nav navbar-nav navbar-right">
@@ -65,37 +69,6 @@
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
-
-        <div class="container">
-
-            <div class='row'>
-                <div class='col-md-12'>
-                    <h2 style='color: #009688;'>做網站要多少錢</h2>
-                    <p style='color: #757575;'>
-                        關於做網站的各種功能與價格說明清單
-                        <i class="fa fa-dollar" aria-hidden="true"></i>
-                        <i class="fa fa-dollar" aria-hidden="true"></i>
-                        <i class="fa fa-dollar" aria-hidden="true"></i>
-                    </p>
-                </div>
-            </div>
-
-            <div class='row hidden-xs'>
-                <div class='col-md-6'>
-                    <ul class="list-group">
-                      <li class="list-group-item">於 2016-12-08 15:38:27 更新：UI</li>
-                      <li class="list-group-item">於 2016-12-04 21:30:38 更新：項目資料</li>
-                      <li class="list-group-item">於 2016-12-04 15:58:01 新增：給業主參考的術語辭典</li>
-                    </ul>
-                </div>
-                <div class='col-md-6'>
-                    <div class="alert alert-warning" role="alert">
-                        資料持續整理中：<br /><a href='https://goo.gl/pMHtI1' target="_blank">點擊這裡可以參與編輯</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
 
         @yield('content')
 
