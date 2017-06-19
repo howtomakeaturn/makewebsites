@@ -40,7 +40,7 @@
     <br>
     <div style='text-align: center;'>
         <a href='/specs' class="btn btn-primary">查看全部 {{$rows->count()}} 則條目</a>
-        <a href='/specs' class="btn btn-success">新增條目</a>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSd9s12zzgK4M2jN2PxdqbpySOkpUvoz5vW8WUJDnJRs08t-sQ/viewform?usp=sf_link' target="_blank" class="btn btn-success">新增條目</a>
     </div>
 
 </div>
