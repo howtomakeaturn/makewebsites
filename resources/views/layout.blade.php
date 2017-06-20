@@ -120,19 +120,17 @@
             }
             body {
                 font-size: 15px;
-                line-height: 1.7em;
+                line-height: 1.7;
             }
             .main-section {
                 padding-top: 60px;
                 padding-bottom: 60px;
-                padding-left: 10px;
-                padding-right: 10px;
             }
             .main-section.-blue {
                 background-color: #E3F2FD;
             }
             .site-title {
-                font-size: 3em;
+                font-size: 2.5em;
                 text-align: center;
                 margin-bottom: 30px;
             }

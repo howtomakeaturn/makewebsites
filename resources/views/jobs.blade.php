@@ -8,8 +8,11 @@
             <div class="section-title">
                 <i class="fa fa-handshake-o" aria-hidden="true"></i>
                 發佈案件
-                <div style='float: right;'>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdSLKBkXRiFm8WE-mA7rQO1tLUPof_m_1oytI8sMKlTmfEi5w/viewform?usp=sf_link' target='_blank' class="btn btn-success">張貼案件</a>
+                <div style='float: right; margin-right: 10px;'>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdSLKBkXRiFm8WE-mA7rQO1tLUPof_m_1oytI8sMKlTmfEi5w/viewform?usp=sf_link' target='_blank' class="btn btn-success">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    張貼案件
+                </a>
                 </div>
             </div>
         </div>
