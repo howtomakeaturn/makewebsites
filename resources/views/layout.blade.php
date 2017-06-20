@@ -75,9 +75,14 @@
         @yield('content')
 
         <div class="subscribe-section">
-            定期收到最新的功能參考報價，以及案件需求。
-            歡迎追蹤粉絲專頁，或是留下 Email 訂閱 <input type='text' placeholder="Email...">
+            定期收到最新的功能參考報價，以及案件需求：
+            歡迎追蹤<a href="https://www.facebook.com/%E5%81%9A%E7%B6%B2%E7%AB%99%E8%A6%81%E5%A4%9A%E5%B0%91%E9%8C%A2-121908611733533/" target="_blank">粉絲專頁</a>
+            ，或是留下 Email
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSf7YiEvS-M86OfZgUtTqGkzIinGnMsABE4LpcLh91hwNQuhZw/viewform?usp=sf_link' target="_blank">訂閱</a>
+            <!--
+            <input type='text' placeholder="Email...">
             <input type='submit' class="btn btn-success btn" value="訂閱">
+            -->
         </div>
 
         <div class="container">
@@ -152,8 +157,7 @@
             }
             .subscribe-section {
                 text-align: center;
-                background-color: #424242;
-                color: white;
+                background-color: #E0E0E0;
                 position: fixed;
                 bottom: 0;
                 width: 100%;
