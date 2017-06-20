@@ -125,6 +125,8 @@
             .main-section {
                 padding-top: 60px;
                 padding-bottom: 60px;
+                padding-left: 10px;
+                padding-right: 10px;
             }
             .main-section.-blue {
                 background-color: #E3F2FD;
@@ -145,6 +147,7 @@
             .menu-buttons .btn {
                 padding: 20px 40px;
                 font-size: 1.5em;
+                margin-bottom: 10px;
             }
             .section-title {
                 font-size: 2em;
