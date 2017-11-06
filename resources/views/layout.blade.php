@@ -44,8 +44,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
+                  <!--
                 <li><a href="/">預算說明清單</a></li>
                 <li><a href="/dictionary">給業主參考的術語辭典</a></li>
+                  -->
 
               <!--
               <ul class="nav navbar-nav navbar-right">
@@ -80,6 +82,7 @@
                 </div>
             </div>
 
+            <!--
             <div class='row hidden-xs'>
                 <div class='col-md-6'>
                     <ul class="list-group">
@@ -94,11 +97,14 @@
                     </div>
                 </div>
             </div>
+            -->
 
         </div>
+        <br>
 
         @yield('content')
 
+        <br>
 
         <div class="container">
             <div class='row'>
