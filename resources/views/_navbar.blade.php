@@ -20,7 +20,6 @@
         <li><a href="/profiles">Profiles</a></li>
         <li><a href="/prices">Prices</a></li>
 
-
       <!--
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>

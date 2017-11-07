@@ -33,3 +33,37 @@ function get_dict_rows()
 
     return $rows;
 }
+
+function get_service_rows()
+{
+    $file = fopen(storage_path('app/2017-11-07/services.csv'), 'r');
+
+    $rows = [];
+
+    while (($line = fgetcsv($file)) !== FALSE) {
+        $rows[] = $line;
+    }
+
+    fclose($file);
+
+    unset($rows[0]);
+
+    return $rows;
+}
+
+function get_profile_rows()
+{
+    $file = fopen(storage_path('app/2017-11-07/profiles.csv'), 'r');
+
+    $rows = [];
+
+    while (($line = fgetcsv($file)) !== FALSE) {
+        $rows[] = $line;
+    }
+
+    fclose($file);
+
+    unset($rows[0]);
+
+    return $rows;
+}
