@@ -14,11 +14,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-
+        <!--
         <li><a href="/">Home</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/profiles">Profiles</a></li>
-        <li><a href="/prices">Prices</a></li>
+        -->
+        <li><a href="/services">國內外架站服務</a></li>
+        <li><a href="/profiles">接案公司清單</a></li>
+        <li><a href="/prices">功能與價格說明</a></li>
 
       <!--
       <ul class="nav navbar-nav navbar-right">
