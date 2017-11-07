@@ -58,6 +58,18 @@
                 border-top-width: 2px;
             }
 
+            .item-box {
+                border-bottom: 1px solid #B2EBF2;
+            }
+
+            .item-box:nth-child(even) {
+                background-color: #E0F7FA;
+            }
+
+            .item-box.-header {
+                background-color: #00ACC1;
+            }
+
         </style>
 
     </head>
@@ -66,13 +78,11 @@
 
         @include('_navbar')
 
-        <br>
-
         <div class="container">
 
             <div class='row'>
                 <div class='col-md-12'>
-                    <h2 style='color: #009688;'>做網站要多少錢</h2>
+                    <h2 style='color: #009688; color: #00BCD4;'>做網站要多少錢</h2>
                     <p style='color: #757575;'>
                         關於做網站的各種功能與價格說明清單
                         <i class="fa fa-dollar" aria-hidden="true"></i>
