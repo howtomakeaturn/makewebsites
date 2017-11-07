@@ -28,9 +28,8 @@
     </head>
     <body>
 
-        {{--
+
         @include('_navbar')
-        --}}
 
         <br>
 

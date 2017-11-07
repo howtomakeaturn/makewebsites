@@ -12,8 +12,12 @@
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/prices', function () {
     $rows = get_rows();
-    return view('welcome', ['rows' => $rows]);
+    return view('prices', ['rows' => $rows]);
 });
 
 Route::get('/dictionary', function () {
