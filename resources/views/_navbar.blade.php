@@ -27,9 +27,9 @@
         <li><a href="/prices">功能與價格說明</a></li>
         -->
 
-        <li><a href="/services">有哪些架站服務？</a></li>
-        <li><a href="/profiles">有哪些接案公司？</a></li>
-        <li><a href="/prices">各種功能要多少錢？</a></li>
+        <li><a href="/services">有哪些架站服務</a></li>
+        <li><a href="/profiles">有哪些接案公司</a></li>
+        <li><a href="/prices">各種功能要多少錢</a></li>
 
       <!--
       <ul class="nav navbar-nav navbar-right">

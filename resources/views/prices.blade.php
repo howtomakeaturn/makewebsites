@@ -6,13 +6,12 @@
 
     <div class='row'>
         <div class='col-md-12'>
-            <h2 style='color: #009688; color: #00BCD4;'>做網站：各種功能要多少錢？</h2>
+            <h2 style='color: #009688; color: #00BCD4;'>做網站：各種功能要多少錢</h2>
+
             <p style='color: #757575;'>
-                關於做網站的各種功能與價格說明清單
-                <i class="fa fa-dollar" aria-hidden="true"></i>
-                <i class="fa fa-dollar" aria-hidden="true"></i>
-                <i class="fa fa-dollar" aria-hidden="true"></i>
+                了解一下各種報價的價差，方便跟接案公司溝通！
             </p>
+
         </div>
     </div>
 </div>
