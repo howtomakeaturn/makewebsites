@@ -29,6 +29,8 @@
 
         <script src='/js/bootstrap.min.js'></script>
 
+        @yield('head')
+
         <style>
             body {
                 font-size: 15px;
