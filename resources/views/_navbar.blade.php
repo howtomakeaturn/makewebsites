@@ -8,7 +8,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <!--
       <a class="navbar-brand" href="/">做網站要多少錢</a>
+      -->
+      <a class="navbar-brand" href="/">做網站</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,9 +20,16 @@
         <!--
         <li><a href="/">Home</a></li>
         -->
+
+        <!--
         <li><a href="/services">國內外架站服務</a></li>
         <li><a href="/profiles">接案公司清單</a></li>
         <li><a href="/prices">功能與價格說明</a></li>
+        -->
+
+        <li><a href="/services">有哪些架站服務？</a></li>
+        <li><a href="/profiles">有哪些接案公司？</a></li>
+        <li><a href="/prices">各種功能要多少錢？</a></li>
 
       <!--
       <ul class="nav navbar-nav navbar-right">

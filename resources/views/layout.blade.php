@@ -5,7 +5,11 @@
 
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+        <title>做網站</title>
+
+        <!--
         <title>做網站要多少錢 - 關於做網站的各種功能與價格說明清單</title>
+        -->
 
         <meta name="description" content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
 
@@ -78,6 +82,7 @@
 
         @include('_navbar')
 
+        {{--
         <div class="container">
 
             <div class='row'>
@@ -111,6 +116,8 @@
 
         </div>
         <br>
+
+        --}}
 
         @yield('content')
 

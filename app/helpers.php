@@ -36,7 +36,7 @@ function get_dict_rows()
 
 function get_service_rows()
 {
-    $file = fopen(storage_path('app/2017-11-07/services.csv'), 'r');
+    $file = fopen(storage_path('app/2017-11-08/services.csv'), 'r');
 
     $rows = [];
 
