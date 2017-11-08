@@ -32,7 +32,12 @@
             <div style='height: 100px;'>
             接案公司的收費幾乎一定比你想像的還要高很多。在很多情況下，其實租用架站平台的服務是比較好的選擇。
             </div>
-            <a href='#' class="btn btn-default btn-lg btn-block mt5">看看有哪些架站服務</a>
+            <a href='#' class="btn btn-default btn-lg btn-block mt5">
+                <!--
+                <i class="fa fa-cloud" aria-hidden="true"></i>
+                -->
+                看看有哪些架站服務
+            </a>
         </div>
         <div class="col-md-3">
             <div class="fs-21 mb4">
@@ -41,7 +46,12 @@
             <div style='height: 100px;'>
             每一間接案公司的強項、特色都不同。貨比三家不吃虧，逛逛每個團隊的作品集，找一間喜歡的公司，跟他們要個報價。
             </div>
-            <a href='#' class="btn btn-default btn-lg btn-block mt5">看看有哪些接案公司</a>
+            <a href='#' class="btn btn-default btn-lg btn-block mt5">
+                <!--
+                <i class="fa fa-list" aria-hidden="true"></i>
+                -->
+                看看有哪些接案公司
+            </a>
         </div>
         <div class="col-md-3">
             <div class="fs-21 mb4">
@@ -50,7 +60,12 @@
             <div style='height: 100px;'>
             不同接案公司的報價價差非常巨大，這是因為各種功能可大可小，取決於豐富、完整到什麼程度。
             </div>
-            <a href='#' class="btn btn-default btn-lg btn-block mt5">了解一下報價的價差</a>
+            <a href='#' class="btn btn-default btn-lg btn-block mt5">
+                <!--
+                <i class="fa fa-dollar" aria-hidden="true"></i>
+                -->
+                了解一下報價的價差
+            </a>
         </div>
         <div class="col-md-3">
             <div class="fs-21 mb4">
@@ -59,7 +74,12 @@
             <div style='height: 100px;'>
             還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。
             </div>
-            <a href='#' class="btn btn-default btn-lg btn-block mt5">前往 Facebook 社團討論</a>
+            <a href='#' class="btn btn-default btn-lg btn-block mt5">
+                <!--
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                -->
+                前往 Facebook 社團討論
+            </a>
         </div>
     </div>
 
