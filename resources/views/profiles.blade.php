@@ -24,11 +24,14 @@
         <div class='col-md-2'>
             name
         </div>
-        <div class='col-md-4'>
-            url
-        </div>
-        <div class='col-md-4'>
+        <div class='col-md-8'>
             description
+        </div>
+        <div class='col-md-1'>
+            city
+        </div>
+        <div class='col-md-1'>
+            url
         </div>
     </div>
     @foreach($rows as $row)
@@ -36,14 +39,14 @@
         <div class='col-md-2'>
             <div class='title'>{{ $row[0] }}</div>
         </div>
-        <div class='col-md-4'>
-            {!! ($row[1]) !!}
-            <div class='visible-xs-block'>
-                <hr class='mobile-hr'>
-            </div>
-        </div>
-        <div class='col-md-4'>
+        <div class='col-md-8'>
             {!! ($row[2]) !!}
+        </div>
+        <div class='col-md-1'>
+            {!! ($row[3]) !!}
+        </div>
+        <div class='col-md-1'>
+            <a href='{{$row[1]}}'>網址</a>
         </div>
     </div>
     @endforeach

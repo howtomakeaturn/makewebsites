@@ -2,7 +2,7 @@
 
 function get_rows()
 {
-    $file = fopen(storage_path('app/2016-11-26-15-52/features.csv'), 'r');
+    $file = fopen(storage_path('app/latest/features.csv'), 'r');
 
     $rows = [];
 
@@ -36,7 +36,7 @@ function get_dict_rows()
 
 function get_service_rows()
 {
-    $file = fopen(storage_path('app/2017-11-08/services.csv'), 'r');
+    $file = fopen(storage_path('app/latest/services.csv'), 'r');
 
     $rows = [];
 
@@ -53,7 +53,7 @@ function get_service_rows()
 
 function get_profile_rows()
 {
-    $file = fopen(storage_path('app/2017-11-07/profiles.csv'), 'r');
+    $file = fopen(storage_path('app/latest/profiles.csv'), 'r');
 
     $rows = [];
 
