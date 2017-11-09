@@ -20,18 +20,45 @@
 
     .card {
         border: 1px solid #E0E0E0;
-        border-radius: 5px;
+        border-radius: 2px;
         padding: 20px;
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
 
     .step-box {
 
     }
 
-    .step-box .title {
-        min-height: 80px;
-        font-weight: bold;
+    .number-box {
+        text-align: center;
+    }
+
+    .number {
+        background: #E0E0E0;
+        color: white;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        line-height: 30px;
         font-size: 18px;
+        font-weight: bold;
+    }
+
+    .step-box .title {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .step-box .subtitle {
+        text-align: center;
+        font-size: 18px;
+        color: #757575;
+        margin-bottom: 15px;
     }
 
     .step-box .description {
@@ -40,6 +67,15 @@
 
     .step-box a {
 
+    }
+
+    .bg {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .bg.-grey {
+        background: #F5F5F5;
     }
 
 </style>
@@ -53,16 +89,26 @@
         <div class="col-md-12">
             <div class="greeting-box">
                 <div class="main">您有做網站的需求嗎？</div>
-                <div class="description">避免花冤枉錢，建議您按照以下步驟挑選服務或廠商</div>
+                <div class="description">參考以下的發案指南，找到最適合的服務與廠商</div>
             </div>
         </div>
     </div>
+</div>
 
+<div class="bg -grey">
+
+<div class="container">
     <div class="row">
         <div class="col-md-3">
             <div class="step-box card">
+                <div class="number-box">
+                    <span class="number">1</span>
+                </div>
                 <div class="title">
-                1. 先看看架站服務有沒有適合的
+                    架站服務
+                </div>
+                <div class="subtitle">
+                    先看看有沒有適合的
                 </div>
                 <div class="description">
                     <p>接案公司的收費幾乎一定比你想像的還要高很多。在很多情況下，其實租用架站平台的服務是比較好的選擇。</p>
@@ -75,8 +121,14 @@
         </div>
         <div class="col-md-3">
             <div class="step-box card">
+                <div class="number-box">
+                    <span class="number">2</span>
+                </div>
                 <div class="title">
-                2. 看看接案公司有哪些，找喜歡的跟他們要個報價
+                    接案公司
+                </div>
+                <div class="subtitle">
+                    找喜歡的跟他們要個報價
                 </div>
                 <div class="description">
                     <p>每一間接案公司的強項、特色都不同。貨比三家不吃虧，逛逛每個團隊的作品集，找一間喜歡的公司，跟他們要個報價。</p>
@@ -88,8 +140,14 @@
         </div>
         <div class="col-md-3">
             <div class="step-box card">
+                <div class="number-box">
+                    <span class="number">3</span>
+                </div>
                 <div class="title">
-                3. 了解為甚麼報價會差那麼多，方便跟接案公司溝通
+                    認識報價
+                </div>
+                <div class="subtitle">
+                    方便跟接案公司溝通
                 </div>
                 <div class="description">
                     <p>不同接案公司的報價價差非常巨大，這是因為各種功能可大可小，取決於豐富、完整到什麼程度。</p>
@@ -101,8 +159,14 @@
         </div>
         <div class="col-md-3">
             <div class="step-box card">
+                <div class="number-box">
+                    <span class="number">4</span>
+                </div>
                 <div class="title">
-                4. 還有其他問題，可以到討論區詢問
+                    社群討論
+                </div>
+                <div class="subtitle">
+                    不懂的地方就請教社群
                 </div>
                 <div class="description">
                     <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
@@ -113,6 +177,8 @@
             </div>
         </div>
     </div>
+
+</div>
 
 </div>
 

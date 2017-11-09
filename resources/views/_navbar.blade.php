@@ -11,7 +11,7 @@
       <!--
       <a class="navbar-brand" href="/">做網站要多少錢</a>
       -->
-      <a class="navbar-brand" href="/">做網站</a>
+      <a class="navbar-brand" href="/">做網站：發案指南</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,9 +27,10 @@
         <li><a href="/prices">功能與價格說明</a></li>
         -->
 
-        <li><a href="/services">有哪些架站服務</a></li>
-        <li><a href="/profiles">有哪些接案公司</a></li>
-        <li><a href="/prices">各種功能要多少錢</a></li>
+        <li><a href="/services">架站服務</a></li>
+        <li><a href="/profiles">接案公司</a></li>
+        <li><a href="/prices">認識報價</a></li>
+        <li><a href="#">社群討論</a></li>
 
       <!--
       <ul class="nav navbar-nav navbar-right">
