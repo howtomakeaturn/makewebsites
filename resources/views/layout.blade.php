@@ -33,8 +33,14 @@
 
         <style>
             body {
-                font-size: 15px;
-                line-height: 1.7em;
+                font-size: 14px;
+                line-height: 1.7;
+            }
+
+            @media (min-width: 768px) {
+                body {
+                    font-size: 16px;
+                }
             }
 
             .item-box {
