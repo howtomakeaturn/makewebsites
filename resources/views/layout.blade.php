@@ -136,12 +136,11 @@
         <div class="container">
             <div class='row'>
                 <div class='col-md-12'>
-                    <hr>
-                    <center>
-                    <strong>
-                    Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
-                    </strong>
-                    </center>
+                    <br>
+                    <p class="pull-right">
+                        Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
+                    </p>
+                    <br>
                     <br>
                 </div>
             </div>

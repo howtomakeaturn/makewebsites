@@ -92,14 +92,31 @@
         padding-bottom: 30px;
     }
 
+    .bg > .title {
+        text-align: center;
+        font-size: 1.33rem;
+        margin-bottom: 15px;
+    }
+
     .bg.-grey {
         background: #F5F5F5;
     }
 
+    .bg .description-box {
+        text-align: center;
+        font-size: 1rem;
+        color: #616161;
+    }
+
     @media (min-width: 768px) {
         .bg {
-            padding-top: 80px;
+            padding-top: 60px;
             padding-bottom: 80px;
+        }
+        .bg > .title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
         }
     }
 
@@ -114,7 +131,7 @@
         <div class="col-md-12">
             <div class="greeting-box">
                 <div class="main">您有做網站的需求嗎？</div>
-                <div class="description">參考以下的發案指南，找到最適合的服務與廠商</div>
+                <div class="description">參考以下的發案指南，找到適合您的服務與廠商</div>
             </div>
         </div>
     </div>
@@ -122,7 +139,12 @@
 
 <div class="bg -grey">
 
+    <div class="title">
+        多做功課，不會吃虧。
+    </div>
+
 <div class="container">
+
     <div class="row">
         <div class="col-md-3">
             <div class="step-box card">
@@ -205,6 +227,70 @@
 
 </div>
 
+</div>
+
+<div class="bg">
+    <div class="title">
+        架站服務
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="description-box">
+                    <p>接案公司的收費幾乎一定比你想像的還要高很多。</p>
+                    <p>在很多情況下，其實租用架站平台的服務是比較好的選擇。</p>
+                    <p>獨立網址、手機版型…這些常見需求，雲端服務都有考慮進去，不用擔心。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg -grey">
+    <div class="title">
+        接案公司
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="description-box">
+                    <p>每一間接案公司的強項、特色都不同。</p>
+                    <p>貨比三家不吃虧，逛逛每個團隊的作品集，找一間喜歡的公司，跟他們要個報價。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg">
+    <div class="title">
+        認識報價
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="description-box">
+                    <p>不同接案公司的報價價差非常巨大</p>
+                    <p>這是因為各種功能可大可小，取決於豐富、完整到什麼程度。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg -grey">
+    <div class="title">
+        社群討論
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="description-box">
+                    <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection
