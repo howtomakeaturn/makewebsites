@@ -6,12 +6,12 @@
 
     <div class='row'>
         <div class='col-md-12'>
-            <h2 style='color: #009688; color: #00BCD4;'>做網站：有哪些接案公司</h2>
-
-            <p style='color: #757575;'>
-                找喜歡的跟他們要個報價吧！
-            </p>
-
+            <div class="header-box">
+                <h2 class="title">接案公司</h2>
+                <p class="description">
+                    找喜歡的跟他們要個報價吧！
+                </p>
+            </div>
         </div>
     </div>
 </div>

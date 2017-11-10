@@ -84,6 +84,17 @@
                 background-color: #00ACC1;
             }
 
+            .header-box .title {
+                font-size: 1.33rem;
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+            }
+
+            .header-box .description {
+                font-size: 1rem;
+                color: #616161;
+            }
+
         </style>
 
     </head>
