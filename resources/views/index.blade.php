@@ -48,6 +48,7 @@
 
     .number-box {
         text-align: center;
+        display: none;
     }
 
     .number {
@@ -64,14 +65,14 @@
 
     .step-box .title {
         font-weight: bold;
-        font-size: 24px;
+        font-size: 1.33rem;
         text-align: center;
         margin-top: 10px;
     }
 
     .step-box .subtitle {
         text-align: center;
-        font-size: 18px;
+        font-size: 1rem;
         color: #757575;
         margin-bottom: 15px;
     }
@@ -79,6 +80,7 @@
     .step-box .description {
         min-height: 220px;
         font-size: 1rem;
+        display: none;
     }
 
     .step-box a {
@@ -131,7 +133,7 @@
                     架站服務
                 </div>
                 <div class="subtitle">
-                    先看看有沒有適合的
+                    看看有沒有適合的
                 </div>
                 <div class="description">
                     <p>接案公司的收費幾乎一定比你想像的還要高很多。在很多情況下，其實租用架站平台的服務是比較好的選擇。</p>
@@ -189,7 +191,7 @@
                     社群討論
                 </div>
                 <div class="subtitle">
-                    不懂的地方就請教社群
+                    不懂的話可以請教社群
                 </div>
                 <div class="description">
                     <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
