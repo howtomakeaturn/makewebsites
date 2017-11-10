@@ -6,17 +6,32 @@
 
     .greeting-box {
         text-align: center;
-        margin-top: 60px;
-        margin-bottom: 80px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     .greeting-box .main {
-        font-size: 48px;
+        font-size: 1.6rem;
+        margin-bottom: 0.4rem;
     }
 
     .greeting-box .description {
-        font-size: 36px;
+        font-size: 1rem;
     }
+
+    @media (min-width: 768px) {
+        .greeting-box {
+            margin-top: 25px;
+            margin-bottom: 55px;
+        }
+        .greeting-box .main {
+            font-size: 2.5rem;
+        }
+        .greeting-box .description {
+            font-size: 1.5rem;
+        }
+    }
+
 
     .card {
         border: 1px solid #E0E0E0;
@@ -28,7 +43,7 @@
     }
 
     .step-box {
-
+        margin-bottom: 15px;
     }
 
     .number-box {
@@ -63,6 +78,7 @@
 
     .step-box .description {
         min-height: 220px;
+        font-size: 1rem;
     }
 
     .step-box a {
@@ -70,12 +86,19 @@
     }
 
     .bg {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .bg.-grey {
         background: #F5F5F5;
+    }
+
+    @media (min-width: 768px) {
+        .bg {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
     }
 
 </style>

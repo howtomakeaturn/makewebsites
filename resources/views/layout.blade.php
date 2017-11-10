@@ -32,15 +32,17 @@
         @yield('head')
 
         <style>
-            body {
-                font-size: 14px;
-                line-height: 1.7;
+            html {
+                font-size: 16px;
+            }
+            @media (min-width: 768px) {
+                html {
+                    font-size: 18px;
+                }
             }
 
-            @media (min-width: 768px) {
-                body {
-                    font-size: 16px;
-                }
+            body {
+                line-height: 1.6;
             }
 
             .item-box {
