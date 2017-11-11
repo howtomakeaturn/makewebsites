@@ -22,16 +22,16 @@
 
     <div class='row item-box -header'>
         <div class='col-md-2'>
-            name
+            名稱
         </div>
         <div class='col-md-8'>
-            description
+            服務簡介
         </div>
         <div class='col-md-1'>
-            city
+            所在城市
         </div>
         <div class='col-md-1'>
-            url
+            網址
         </div>
     </div>
     @foreach($rows as $row)
