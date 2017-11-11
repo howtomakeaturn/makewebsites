@@ -226,7 +226,7 @@
                 <div class="description">
                     <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
                 </div>
-                <a href='#' class="btn btn-primary btn-block">
+                <a href='/community' class="btn btn-primary btn-block">
                     看看哪裡有社群可討論
                 </a>
             </div>
