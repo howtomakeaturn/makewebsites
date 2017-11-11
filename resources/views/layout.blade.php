@@ -72,18 +72,6 @@
                 border-top-width: 2px;
             }
 
-            .item-box {
-                border-bottom: 1px solid #B2EBF2;
-            }
-
-            .item-box:nth-child(even) {
-                background-color: #E0F7FA;
-            }
-
-            .item-box.-header {
-                background-color: #00ACC1;
-            }
-
             .header-box .title {
                 font-size: 1.33rem;
                 margin-bottom: 0.5rem;
