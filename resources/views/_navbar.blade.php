@@ -30,7 +30,7 @@
         <li><a href="/services">架站服務</a></li>
         <li><a href="/profiles">接案公司</a></li>
         <li><a href="/prices">認識報價</a></li>
-        <li><a href="#">社群討論</a></li>
+        <li><a href="/community">社群討論</a></li>
 
       <!--
       <ul class="nav navbar-nav navbar-right">
