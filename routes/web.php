@@ -36,24 +36,7 @@ Route::get('/profiles', function () {
 });
 
 Route::get('/community', function () {
-
-    $rows = [
-        [
-            'PHP 台灣（臉書社團）',
-            'a great php group',
-            'url'
-        ],
-        [
-            'PHP 台灣（臉書社團）',
-            'a great php group',
-            'url'
-        ],
-        [
-            'PHP 台灣（臉書社團）',
-            'a great php group',
-            'url'
-        ],
-    ];
+    $rows = get_community_rows();
 
     return view('community', ['rows' => $rows]);
 });

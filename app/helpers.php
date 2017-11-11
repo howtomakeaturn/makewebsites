@@ -67,3 +67,20 @@ function get_profile_rows()
 
     return $rows;
 }
+
+function get_community_rows()
+{
+    $file = fopen(storage_path('app/latest/community.csv'), 'r');
+
+    $rows = [];
+
+    while (($line = fgetcsv($file)) !== FALSE) {
+        $rows[] = $line;
+    }
+
+    fclose($file);
+
+    unset($rows[0]);
+
+    return $rows;
+}

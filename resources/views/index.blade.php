@@ -227,7 +227,7 @@
                     <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
                 </div>
                 <a href='#' class="btn btn-primary btn-block">
-                    前往 Facebook 社團
+                    看看哪裡有社群可討論
                 </a>
             </div>
         </div>
@@ -298,7 +298,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="description-box">
                     <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
-                    <a class="btn btn-primary btn-lg cta" href="/community">前往 Facebook 社團</a>
+                    <a class="btn btn-primary btn-lg cta" href="/community">看看哪裡有社群可討論</a>
                 </div>
             </div>
         </div>
