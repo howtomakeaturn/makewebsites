@@ -5,19 +5,19 @@
 
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>做網站</title>
+        <title>做網站：發案指南</title>
 
         <!--
         <title>做網站要多少錢 - 關於做網站的各種功能與價格說明清單</title>
         -->
 
-        <meta name="description" content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
+        <meta name="description" content="做網站：發案指南 - 參考發案指南，找到適合您的服務與廠商">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name='og:title' content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
+        <meta name='og:title' content="做網站：發案指南 - 您有做網站的需求嗎？">
 
-        <meta name='og:description' content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
+        <meta name='og:description' content="參考發案指南，找到適合您的服務與廠商">
 
         <meta name='og:image' content="{{ url('/images/og-image.png') }}">
 
