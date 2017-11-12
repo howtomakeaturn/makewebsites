@@ -26,7 +26,7 @@ Route::get('/dictionary', function () {
 });
 
 Route::get('/services', function () {
-    $rows = get_service_rows()->take(12);
+    $rows = get_service_rows();
     return view('services', ['rows' => $rows]);
 });
 
