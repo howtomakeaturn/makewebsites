@@ -5,6 +5,20 @@
 <div class="container">
 
     <div class='row'>
+        <div class='col-md-8 col-md-offset-2'>
+
+            <div class="alert alert-info alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>資料持續整理中</strong>：<a href='https://docs.google.com/forms/d/e/1FAIpQLSdl5tF1mEScfHwJijvLnjjwcQFm48jmGm16lu6YOeIlXv5pMg/viewform?usp=sf_link' target="_blank">點這裡推薦新增公司</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class='row'>
         <div class='col-md-12'>
             <div class="header-box">
                 <h2 class="title">接案公司</h2>

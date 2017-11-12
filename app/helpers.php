@@ -54,3 +54,9 @@ function _get_rows($path)
 
     return collect($rows);
 }
+
+function replace_at_icon($str)
+{
+    $url = url('/image/at.png');
+    return str_replace('@', " <img src='$url' style='width: 20px;'> ", $str);
+}
