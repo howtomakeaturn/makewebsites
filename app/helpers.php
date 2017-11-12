@@ -2,19 +2,7 @@
 
 function get_rows()
 {
-    $file = fopen(storage_path('app/latest/features.csv'), 'r');
-
-    $rows = [];
-
-    while (($line = fgetcsv($file)) !== FALSE) {
-        $rows[] = $line;
-    }
-
-    fclose($file);
-
-    unset($rows[0]);
-
-    return $rows;
+    return _get_rows(storage_path('app/latest/features.csv'));
 }
 
 function get_dict_rows()
@@ -36,41 +24,23 @@ function get_dict_rows()
 
 function get_service_rows()
 {
-    $file = fopen(storage_path('app/latest/services.csv'), 'r');
-
-    $rows = [];
-
-    while (($line = fgetcsv($file)) !== FALSE) {
-        $rows[] = $line;
-    }
-
-    fclose($file);
-
-    unset($rows[0]);
-
-    return $rows;
+    return _get_rows(storage_path('app/latest/services.csv'));
 }
 
 function get_profile_rows()
 {
-    $file = fopen(storage_path('app/latest/profiles.csv'), 'r');
+    return _get_rows(storage_path('app/latest/profiles.csv'));
 
-    $rows = [];
-
-    while (($line = fgetcsv($file)) !== FALSE) {
-        $rows[] = $line;
-    }
-
-    fclose($file);
-
-    unset($rows[0]);
-
-    return $rows;
 }
 
 function get_community_rows()
 {
-    $file = fopen(storage_path('app/latest/community.csv'), 'r');
+    return _get_rows(storage_path('app/latest/community.csv'));
+}
+
+function _get_rows($path)
+{
+    $file = fopen($path, 'r');
 
     $rows = [];
 
@@ -82,5 +52,5 @@ function get_community_rows()
 
     unset($rows[0]);
 
-    return $rows;
+    return collect($rows);
 }
