@@ -138,7 +138,7 @@
         <div class="col-md-12">
             <div class="greeting-box">
                 <div class="main">您有做網站的需求嗎？</div>
-                <div class="description">參考以下的發案指南，找到適合您的服務與廠商</div>
+                <div class="description">參考發案指南，找到適合您的服務與廠商</div>
             </div>
         </div>
     </div>
