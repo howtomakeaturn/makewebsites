@@ -46,13 +46,14 @@
             }
 
             .item-box {
-                border-bottom: 1px solid #B2DFDB;
+                border-bottom: 1px solid #E0E0E0;
                 padding-bottom: 10px;
                 padding-top: 10px;
+                background-color: white;
             }
 
             .item-box:nth-child(even) {
-                background-color: #E0F2F1;
+                background-color: #F5F5F5;
             }
 
             .item-box.-header {
