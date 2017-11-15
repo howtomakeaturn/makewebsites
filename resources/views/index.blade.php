@@ -339,6 +339,7 @@
     border-radius: 35px;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
+    z-index: 10;
     /*
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;

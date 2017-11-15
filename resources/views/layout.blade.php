@@ -131,6 +131,7 @@
         @yield('content')
 
         <br>
+        <br>
 
         <div class="container">
             <div class='row'>
@@ -144,6 +145,9 @@
                 </div>
             </div>
         </div>
+
+        <br>
+        <br>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
