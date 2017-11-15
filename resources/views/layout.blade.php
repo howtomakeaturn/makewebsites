@@ -131,13 +131,12 @@
         @yield('content')
 
         <br>
-        <br>
 
         <div class="container">
             <div class='row'>
                 <div class='col-md-12'>
                     <br>
-                    <p class="pull-right">
+                    <p class="pull-left">
                         Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
                     </p>
                     <br>
@@ -145,9 +144,6 @@
                 </div>
             </div>
         </div>
-
-        <br>
-        <br>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
