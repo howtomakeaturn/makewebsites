@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -11,7 +11,7 @@
       <!--
       <a class="navbar-brand" href="/">做網站要多少錢</a>
       -->
-      <a class="navbar-brand" href="/">做網站：發案指南</a>
+      <a class="navbar-brand" href="/">{{short_title()}}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

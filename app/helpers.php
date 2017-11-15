@@ -60,3 +60,15 @@ function replace_at_icon($str)
     $url = url('/image/at.png');
     return str_replace('@', " <img src='$url' style='width: 20px;'> ", $str);
 }
+
+function short_title()
+{
+    //return '做網站 - 各種方法懶人包';
+    return '做網站的100種方法';
+
+}
+
+function long_title()
+{
+    return short_title() . '：架站平台、接案公司、預算列表，由網友們一起整理';
+}

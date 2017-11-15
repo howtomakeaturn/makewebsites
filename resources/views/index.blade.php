@@ -4,6 +4,10 @@
 
 <style>
 
+    body {
+        padding-top: 70px;
+    }
+
     .greeting-box {
         text-align: center;
         margin-top: 20px;
@@ -137,8 +141,11 @@
     <div class="row">
         <div class="col-md-12">
             <div class="greeting-box">
-                <div class="main">您有做網站的需求嗎？</div>
-                <div class="description">參考發案指南，找到適合您的服務與廠商</div>
+                <div class="main">{{short_title()}}</div>
+                <div class="description">
+                    找人接案之前，先看看有哪些選項。<br>
+                    下面是由網友們一起整理的，各類資源懶人包。
+                </div>
             </div>
         </div>
     </div>
