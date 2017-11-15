@@ -4,10 +4,6 @@
 
 <style>
 
-    body {
-        padding-top: 70px;
-    }
-
     .greeting-box {
         text-align: center;
         margin-top: 20px;
