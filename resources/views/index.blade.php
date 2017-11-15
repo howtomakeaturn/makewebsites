@@ -339,11 +339,13 @@
     border-radius: 35px;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
+    /*
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    */
 }
 #return-to-top i {
     color: #fff;
@@ -352,12 +354,15 @@
     left: 16px;
     top: 13px;
     font-size: 19px;
+    /*
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    */
 }
+/*
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
 }
@@ -366,7 +371,7 @@
     color: #fff;
     top: 5px;
 }
-
+*/
 </style>
 
 @endsection
