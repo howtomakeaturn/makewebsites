@@ -168,10 +168,6 @@
                 <div class="subtitle">
                     看看有沒有適合的
                 </div>
-                <div class="description">
-                    <p>接案公司的收費幾乎一定比你想像的還要高很多。在很多情況下，其實租用架站平台的服務是比較好的選擇。</p>
-                    <p>獨立網址、手機版型…這些常見需求，雲端服務都有考慮進去，不用擔心。</p>
-                </div>
                 <a href='#services' class="btn btn-primary btn-block">
                     看看有哪些架站服務
                 </a>
@@ -187,9 +183,6 @@
                 </div>
                 <div class="subtitle">
                     找喜歡的跟他們要個報價
-                </div>
-                <div class="description">
-                    <p>每一間接案公司的強項、特色都不同。貨比三家不吃虧，逛逛每個團隊的作品集，找一間喜歡的公司，跟他們要個報價。</p>
                 </div>
                 <a href='#profiles' class="btn btn-primary btn-block">
                     看看有哪些接案公司
@@ -207,9 +200,6 @@
                 <div class="subtitle">
                     方便跟接案公司溝通
                 </div>
-                <div class="description">
-                    <p>不同接案公司的報價價差非常巨大，這是因為各種功能可大可小，取決於豐富、完整到什麼程度。</p>
-                </div>
                 <a href='#prices' class="btn btn-primary btn-block">
                     了解一下報價的價差
                 </a>
@@ -225,9 +215,6 @@
                 </div>
                 <div class="subtitle">
                     不懂的話可以請教社群
-                </div>
-                <div class="description">
-                    <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
                 </div>
                 <a href='#community' class="btn btn-primary btn-block">
                     看看哪裡有社群可討論
@@ -249,11 +236,8 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="description-box">
                     <p>接案公司的收費幾乎一定比你想像的還要高很多。</p>
-                    <p>在很多情況下，其實租用架站平台的服務是比較好的選擇。</p>
+                    <p>在很多情況下，其實用 DIY 架站平台的服務是比較好的選擇。</p>
                     <p>獨立網址、手機版型…這些常見需求，雲端服務都有考慮進去，不用擔心。</p>
-                    <!--
-                    <a class="btn btn-primary btn-lg cta" href="/services">看看有哪些架站服務</a>
-                    -->
                 </div>
             </div>
         </div>
@@ -272,9 +256,6 @@
                 <div class="description-box">
                     <p>每一間接案公司的強項、特色都不同。</p>
                     <p>貨比三家不吃虧，逛逛每個團隊的作品集，找一間喜歡的公司，跟他們要個報價。</p>
-                    <!--
-                    <a class="btn btn-primary btn-lg cta" href="/profiles">看看有哪些接案公司</a>
-                    -->
                 </div>
             </div>
         </div>
@@ -293,9 +274,7 @@
                 <div class="description-box">
                     <p>不同接案公司的報價價差非常巨大</p>
                     <p>這是因為各種功能可大可小，取決於豐富、完整到什麼程度。</p>
-                    <!--
-                    <a class="btn btn-primary btn-lg cta" href="/prices">了解一下報價的價差</a>
-                    -->
+                    <p>了解一下為什麼價差這麼大，有助於跟接案公司溝通。</p>
                 </div>
             </div>
         </div>
@@ -313,9 +292,6 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="description-box">
                     <p>還是有地方不了解的話，可以到社群發問，尋找其他人士的協助。</p>
-                    <!--
-                    <a class="btn btn-primary btn-lg cta" href="/community">看看哪裡有社群可討論</a>
-                    -->
                 </div>
             </div>
         </div>
