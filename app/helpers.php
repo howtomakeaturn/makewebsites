@@ -70,5 +70,5 @@ function short_title()
 
 function long_title()
 {
-    return short_title() . '：架站平台、接案公司、預算列表，由網友們一起整理';
+    return short_title() . '：架站平台、接案公司、預算列表，各類資源總整理';
 }

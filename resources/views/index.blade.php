@@ -139,8 +139,8 @@
             <div class="greeting-box">
                 <div class="main">{{short_title()}}</div>
                 <div class="description">
-                    找人接案之前先看看有哪些選項。<br>
-                    由網友們一起整理的各類資源懶人包。
+                    找人接案之前，可以先看看有哪些選項。<br>
+                    架站平台、接案公司、預算列表，各類資源總整理。
                 </div>
             </div>
         </div>
