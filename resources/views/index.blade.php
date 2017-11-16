@@ -139,15 +139,15 @@
             <div class="greeting-box">
                 <div class="main">{{short_title()}}</div>
                 <div class="description">
-                    找人接案之前，先看看有哪些選項。<br>
-                    下面是由網友們一起整理的，各類資源懶人包。
+                    找人接案之前先看看有哪些選項。<br>
+                    由網友們一起整理的各類資源懶人包。
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="bg -grey">
+<div class="bg -grey" id='top'>
     <!--
     <div class="title">
         多做功課，不會吃虧。
