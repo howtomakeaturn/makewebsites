@@ -10,7 +10,7 @@
         <div class='col-md-6'>
 
             <div class="alert alert-success" role="alert">
-                <strong>上次更新資料時間</strong>：2017-11-12 14:35</a>
+                <strong>上次更新資料時間</strong>：2017-11-16 09:03</a>
             </div>
 
         </div>
@@ -42,7 +42,7 @@
             {!! ($row[3]) !!}
         </div>
         <div class='col-md-1'>
-            <a href='{{$row[1]}}'>網址</a>
+            <a href='{{$row[1]}}' target="_blank">網址</a>
         </div>
     </div>
     @endforeach
