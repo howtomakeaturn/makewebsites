@@ -36,7 +36,7 @@
             {!! ($row[1]) !!}
         </div>
         <div class='col-md-2'>
-            <a href='{{$row[2]}}'>網址</a>
+            <a href='{{$row[2]}}' target="_blank">網址</a>
         </div>
     </div>
     @endforeach
