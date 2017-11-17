@@ -147,13 +147,15 @@
     </div>
 </div>
 
-<div class="bg -grey" id='top'>
+<div class="bg -grey" id='top' style="padding-top: 30px;">
     <!--
     <div class="title">
         多做功課，不會吃虧。
     </div>
     -->
-
+    <div style="text-align: center; margin-bottom: 20px;">
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fmakewebsites.tw%2F&layout=button_count&size=large&mobile_iframe=true&appId=184908068728246&width=92&height=28" width="92" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
 <div class="container">
 
     <div class="row">
