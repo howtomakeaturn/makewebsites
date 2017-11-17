@@ -147,7 +147,7 @@
     </div>
 </div>
 
-<div class="bg -grey" id='top' style="padding-top: 30px;">
+<div class="bg -grey" style="padding-top: 30px;">
     <!--
     <div class="title">
         多做功課，不會吃虧。
@@ -302,7 +302,7 @@
     </div>
 </div>
 
-<div class="bg">
+<div class="bg" id='discuss'>
     <div class="title">
         留言板
     </div>
