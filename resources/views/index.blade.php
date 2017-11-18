@@ -133,6 +133,15 @@
 
 @section('content')
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11&appId=184908068728246';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -154,7 +163,10 @@
     </div>
     -->
     <div style="text-align: center; margin-bottom: 20px;">
+        <!--
         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fmakewebsites.tw%2F&layout=button_count&size=large&mobile_iframe=true&appId=184908068728246&width=92&height=28" width="92" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        -->
+        <div class="fb-share-button" data-href="https://makewebsites.tw/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmakewebsites.tw%2F&amp;src=sdkpreparse">分享</a></div>
     </div>
 <div class="container">
 
