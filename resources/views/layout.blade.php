@@ -17,10 +17,7 @@
 
         <meta name='og:image' content="{{ url('/images/og-image.png') }}">
 
-        <!--
         <link rel="stylesheet" href="/css/bootstrap.min.css">
-        -->
-        <link rel="stylesheet" href="/css/bootstrap-yeti.min.css">
 
         <link rel="stylesheet" href="/css/font-awesome.min.css">
 
@@ -41,17 +38,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/">做網站要多少錢？</a>
+              <a class="navbar-brand" href="/">做網站要多少錢</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                  <li><a href="/specs"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> 了解報價的差異</a></li>
-                  <!--
-                  <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> 尋找接案者</a></li>
-                  -->
-                  <li><a href="/jobs"><i class="fa fa-handshake-o" aria-hidden="true"></i> 發佈案件</a></li>
+                <li><a href="/">預算說明清單</a></li>
+                <li><a href="/dictionary">給業主參考的術語辭典</a></li>
 
               <!--
               <ul class="nav navbar-nav navbar-right">
@@ -72,24 +66,44 @@
           </div><!-- /.container-fluid -->
         </nav>
 
+        <div class="container">
+
+            <div class='row'>
+                <div class='col-md-12'>
+                    <h2 style='color: #009688;'>做網站要多少錢</h2>
+                    <p style='color: #757575;'>
+                        關於做網站的各種功能與價格說明清單
+                        <i class="fa fa-dollar" aria-hidden="true"></i>
+                        <i class="fa fa-dollar" aria-hidden="true"></i>
+                        <i class="fa fa-dollar" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class='row hidden-xs'>
+                <div class='col-md-6'>
+                    <ul class="list-group">
+                      <li class="list-group-item">於 2016-12-08 15:38:27 更新：UI</li>
+                      <li class="list-group-item">於 2016-12-04 21:30:38 更新：項目資料</li>
+                      <li class="list-group-item">於 2016-12-04 15:58:01 新增：給業主參考的術語辭典</li>
+                    </ul>
+                </div>
+                <div class='col-md-6'>
+                    <div class="alert alert-warning" role="alert">
+                        資料持續整理中：<br /><a href='https://goo.gl/pMHtI1' target="_blank">點擊這裡可以參與編輯</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         @yield('content')
 
-        <div class="subscribe-section">
-            定期收到最新的功能參考報價，以及案件需求：
-            歡迎追蹤<a href="https://www.facebook.com/%E5%81%9A%E7%B6%B2%E7%AB%99%E8%A6%81%E5%A4%9A%E5%B0%91%E9%8C%A2-121908611733533/" target="_blank">粉絲專頁</a>
-            ，或是留下 Email
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSf7YiEvS-M86OfZgUtTqGkzIinGnMsABE4LpcLh91hwNQuhZw/viewform?usp=sf_link' target="_blank">訂閱</a>
-            <!--
-            <input type='text' placeholder="Email...">
-            <input type='submit' class="btn btn-success btn" value="訂閱">
-            -->
-        </div>
 
         <div class="container">
             <div class='row'>
                 <div class='col-md-12'>
                     <hr>
-                    <br>
                     <center>
                     <strong>
                     Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
@@ -99,9 +113,6 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -113,58 +124,5 @@
           ga('send', 'pageview');
 
         </script>
-
-        <style>
-            .navbar {
-                margin-bottom: 0;
-            }
-            body {
-                font-size: 15px;
-                line-height: 1.7;
-            }
-            .main-section {
-                padding-top: 60px;
-                padding-bottom: 60px;
-            }
-            .main-section.-blue {
-                background-color: #E3F2FD;
-            }
-            .site-title {
-                font-size: 2.5em;
-                text-align: center;
-                margin-bottom: 30px;
-            }
-            .site-slogan {
-                font-size: 1.8em;
-                text-align: center;
-            }
-            .menu-buttons {
-                text-align: center;
-                padding-top: 40px;
-            }
-            .menu-buttons .btn {
-                padding: 20px 40px;
-                font-size: 1.5em;
-                margin-bottom: 10px;
-            }
-            .section-title {
-                font-size: 2em;
-                text-align: center;
-                margin-bottom: 30px;
-            }
-            .main-section iframe {
-                width: 100%;
-                height: 400px;
-            }
-            .subscribe-section {
-                text-align: center;
-                background-color: #E0E0E0;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                z-index: 1;
-                padding: 10px;
-            }
-        </style>
     </body>
 </html>
