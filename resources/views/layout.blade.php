@@ -5,15 +5,19 @@
 
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>做網站要多少錢 - 關於做網站的各種功能與價格說明清單</title>
+        <title>{{long_title()}}</title>
 
-        <meta name="description" content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
+        <!--
+        <title>做網站要多少錢 - 關於做網站的各種功能與價格說明清單</title>
+        -->
+
+        <meta name="description" content="{{long_title()}}">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name='og:title' content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
+        <meta name='og:title' content="{{long_title()}}">
 
-        <meta name='og:description' content="做網站要多少錢 - 關於做網站的各種功能與價格說明清單">
+        <meta name='og:description' content="{{long_title()}}">
 
         <meta name='og:image' content="{{ url('/images/og-image.png') }}">
 
@@ -25,52 +29,74 @@
 
         <script src='/js/bootstrap.min.js'></script>
 
+        @yield('head')
+
+        <style>
+            html {
+                font-size: 16px;
+            }
+            @media (min-width: 768px) {
+                html {
+                    font-size: 18px;
+                }
+            }
+
+            body {
+                line-height: 1.6;
+            }
+
+            .item-box {
+                border-bottom: 1px solid #E0E0E0;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                background-color: white;
+            }
+
+            .item-box:nth-child(even) {
+                background-color: #F5F5F5;
+            }
+
+            .item-box.-header {
+                font-weight: bold;
+            }
+
+            .item-box .title {
+                font-weight: bold;
+            }
+
+            .mobile-hr {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-color: #BDBDBD;
+                border-style: dashed;
+                border-top-width: 2px;
+            }
+
+            .header-box .title {
+                font-size: 1.33rem;
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+            }
+
+            .header-box .description {
+                font-size: 1rem;
+                color: #616161;
+            }
+
+        </style>
+
     </head>
     <body>
 
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">做網站要多少錢</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href="/">預算說明清單</a></li>
-                <li><a href="/dictionary">給業主參考的術語辭典</a></li>
+        @include('_navbar')
 
-              <!--
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            -->
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-
+        {{--
         <div class="container">
 
             <div class='row'>
                 <div class='col-md-12'>
-                    <h2 style='color: #009688;'>做網站要多少錢</h2>
+                    <h2 style='color: #009688; color: #00BCD4;'>做網站要多少錢</h2>
                     <p style='color: #757575;'>
                         關於做網站的各種功能與價格說明清單
                         <i class="fa fa-dollar" aria-hidden="true"></i>
@@ -80,6 +106,7 @@
                 </div>
             </div>
 
+            <!--
             <div class='row hidden-xs'>
                 <div class='col-md-6'>
                     <ul class="list-group">
@@ -94,21 +121,25 @@
                     </div>
                 </div>
             </div>
+            -->
 
         </div>
+        <br>
+
+        --}}
 
         @yield('content')
 
+        <br>
 
         <div class="container">
             <div class='row'>
                 <div class='col-md-12'>
-                    <hr>
-                    <center>
-                    <strong>
-                    Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
-                    </strong>
-                    </center>
+                    <br>
+                    <p class="pull-left">
+                        Maintained by <a href='https://www.facebook.com/chuanhao.you' target="_blank">阿川先生</a>
+                    </p>
+                    <br>
                     <br>
                 </div>
             </div>
