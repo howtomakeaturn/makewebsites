@@ -6,10 +6,12 @@
 
 ## 編輯條目
 
-[a relative link](/storage/app/latest/services.csv)
+新增、編修條目，直接發送 PR 修改以下檔案即可：
 
-[a relative link](/storage/app/latest/services.csv)
+[架站服務](/storage/app/latest/services.csv)
 
-[a relative link](/storage/app/latest/services.csv)
+[接案公司](/storage/app/latest/profiles.csv)
 
-[a relative link](/storage/app/latest/services.csv)
+[認識報價](/storage/app/latest/features.csv)
+
+[社群討論](/storage/app/latest/community.csv)
