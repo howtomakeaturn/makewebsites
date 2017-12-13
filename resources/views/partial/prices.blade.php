@@ -1,21 +1,6 @@
-    <!--
-    <div class='row'>
-        <div class='col-md-6'>
 
-            <div class="alert alert-info" role="alert">
-                <strong>資料持續整理中</strong>：<a href='https://docs.google.com/spreadsheets/d/1XGbYp7YkMN_0PTz-h99mADWOp8xTsUq50-xOxVLJfJU/edit?usp=sharing' target="_blank">點這裡可以參與編輯</a>
-            </div>
+    @include('partial/link-to-github')
 
-        </div>
-        <div class='col-md-6'>
-
-            <div class="alert alert-success" role="alert">
-                <strong>上次更新資料時間</strong>：2017-11-12 14:35</a>
-            </div>
-
-        </div>
-    </div>
-    -->
     <br>
     <div class='row item-box -header'>
         <div class='col-md-1'>
