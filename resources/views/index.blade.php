@@ -151,6 +151,9 @@
                     找人接案之前，可以先看看有哪些選項。<br>
                     架站平台、接案公司、預算列表，各類資源總整理。
                 </div>
+                <div style="margin-top: 1.5rem;">
+                    @include('partial/contact')
+                </div>
             </div>
         </div>
     </div>
@@ -348,6 +351,12 @@
 </div>
 
 <a href="#top" id='return-to-top'><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+<div class="container">
+    <div style="padding-top: 2rem; border-top: 1px solid #eee;">
+        @include('partial/contact')
+    </div>
+</div>
 
 <style>
 #return-to-top {
